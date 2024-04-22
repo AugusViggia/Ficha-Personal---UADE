@@ -1,0 +1,113 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#title{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.mainContainer{
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+strong{
+    font-family: "Jersey 25", sans-serif;
+    font-size: 2.2rem;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.img{
+    height: 50vh;
+    width: 30vw;
+    margin-right: 6rem;
+    border-radius: 1rem;
+}
+
+.informacionPersonal{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 10vh;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#logoDiv{
+    text-align: center;
+    width: 10vw;
+    background-color: antiquewhite;
+}
+
+#logoUade{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imageDiv{
+        margin-bottom: 2rem;
+    }
+
+    .img {
+        height: 50vh;
+        width: 90vw;
+        margin: 0;
+        border-radius: 1rem;
+    }
+
+    #logoDiv{
+        width: 25vw;
+    }
+}

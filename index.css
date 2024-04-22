@@ -77,15 +77,14 @@ a:hover {
     margin-top: 2rem;
 }
 
-#logoDiv{
-    text-align: center;
-    width: 10vw;
-    background-color: antiquewhite;
-}
-
 #logoUade{
     font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
+}
+
+#logoUade{
+    width: 10vw;
+    height: 9vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -107,7 +106,8 @@ a:hover {
         border-radius: 1rem;
     }
 
-    #logoDiv{
-        width: 25vw;
+    #logoUade {
+        width: 35vw;
+        height: 10vh;
     }
 }
